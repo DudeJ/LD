@@ -1,12 +1,12 @@
 package imperative;
+import org.junit.Test;
 
-import static org.junit.Assert.assertArrayEquals;
-import static org.junit.Assert.assertEquals;
 import static imperative.PerfectNumber.STATE.ABUNDANT;
 import static imperative.PerfectNumber.STATE.DEFICIENT;
 import static imperative.PerfectNumber.STATE.PERFECT;
 
-import org.junit.Test;
+import static org.junit.Assert.assertArrayEquals;
+import static org.junit.Assert.assertEquals;
 
 public class PerfectNumberTest {
 
@@ -60,3 +60,4 @@ public class PerfectNumberTest {
 	
 	
 }
+
